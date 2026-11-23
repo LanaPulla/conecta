@@ -51,3 +51,7 @@ O Conecta é uma plataforma de mensagens. Cada usuário recebe um código único
 ## Link hospedagem
 
 http://conecta.educacao.ws/index.php
+
+## Link Git
+
+https://github.com/LanaPulla/conecta
