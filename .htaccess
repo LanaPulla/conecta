@@ -1,0 +1,10 @@
+# Bloqueia acesso direto a logs, SQL, documentação e credenciais
+<FilesMatch "\.(log|sql|md)$">
+    Require all denied
+</FilesMatch>
+<FilesMatch "^(credenciais.*|conexao|ia)\.php$">
+    Require all denied
+</FilesMatch>
+
+# Impede listar o conteúdo das pastas
+Options -Indexes

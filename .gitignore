@@ -1,0 +1,18 @@
+# Log do sistema
+sistema.log
+
+# Dependências
+node_modules/
+chat-react/node_modules/
+
+# Fotos enviadas pelos usuários (mantém só o avatar padrão)
+uploads/*
+!uploads/default.png
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Pacote de deploy (contém credenciais.php)
+deploy/
